@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,600;1,9..40,700;1,9..40,900;1,9..40,1000&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color: #2F1893;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mt-5 {
+    margin-top: 58px;
+}
+
+.heading1 {
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    padding-bottom: 29px;
+}
+
+.p1 {
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 702px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card {
+    /* width: 270px; */
+    height: 160px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 30px;
+}
+
+.ps-3 {
+    padding-left: 30px;
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+
+.justif-content-center {
+    justify-content: center;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
